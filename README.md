@@ -1,5 +1,5 @@
 # Ktor Quotes-App-Backend
-simple quotes api generator made with ktor and mongodb kmongo
+simple quotes api generator made with ktor and mongodb ktor libary kmongo 🚀
 
 
 #HOW TO USE:
