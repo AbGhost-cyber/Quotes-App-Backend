@@ -28,9 +28,9 @@ fun Route.quotesRouting() {
             }
         }
 
-        get("{qid}") {
+        get("{id}") {
             val id =
-                call.parameters["qid"] ?: return@get call.respond(
+                call.parameters["id"] ?: return@get call.respond(
                     OK,
                     SimpleResponse(false, "Missing or malformed id")
                 )
@@ -57,8 +57,8 @@ fun Route.quotesRouting() {
             }
         }
         //favorite quote
-        post("fav/{qid}") {
-            val quoteId = call.parameters["qid"] ?: return@post call.respond(
+        post("fav/{id}") {
+            val quoteId = call.parameters["id"] ?: return@post call.respond(
                 OK,
                 SimpleResponse(false, "Missing or malformed id")
             )
@@ -86,8 +86,8 @@ fun Route.quotesRouting() {
                 )
             }
         }
-        delete("{qid}") {
-            val quoteId = call.parameters["qid"] ?: return@delete call.respond(
+        delete("{id}") {
+            val quoteId = call.parameters["id"] ?: return@delete call.respond(
                 OK,
                 SimpleResponse(false, "Missing or malformed id")
             )
