@@ -1,6 +1,7 @@
 # Ktor Quotes-App-Backend
 simple quotes api generator made with ktor and mongodb ktor libary kmongo 🚀
 
+check out it's mobile app here 👉🏿 https://github.com/AbGhost-cyber/react-native-quotes-app
 
 #HOW TO USE:
 - install intellij, clone this repo and build project.
